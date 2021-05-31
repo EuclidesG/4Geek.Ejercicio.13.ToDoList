@@ -1,13 +1,49 @@
 @import "~bootstrap/scss/bootstrap.scss";
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200&display=swap');
 
+.background {
+    background-color: rgb(252, 252, 252);
+    font-family: 'Raleway', sans-serif;
+}
 
-.taskItem {
+#classbuttom {
+    float: right;
+    margin-left: 5px;
+   
+}
+
+#task:hover + #eliminate {
+    display: block;
     
-    
-
-
 
 }
+
+#eliminate {
+    display: none;
+}
+
+
+
+
+#box {
+    border-color: black;
+    border-width: 1px;
+    border-style: double;
+    box-shadow:         3px 3px 5px 6px #ccc;;
+    
+}
+
+.inputbox {
+    border-width: 0px;
+    margin-bottom:  20px;
+    }
+
+p {
+    margin-left: 10px;
+
+}
+
+
 
 /* 
 
